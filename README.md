@@ -13,6 +13,12 @@ This project analyzes data from a csv source file containing more than 34,000 or
 ## Using the preprocessed data, model features (X) and target (y) datasets were created. The target dataset should be defined by the preprocessed DataFrame column “IS_SUCCESSFUL”. The remaining columns should define the features dataset.
 <img width="529" alt="Screenshot 2023-11-22 232918" src="https://github.com/ahcano/venture_funding_with_deep_learning/assets/141194281/095ab39d-4e2e-406c-bf4c-e32a2ef50690">
 
+## The features and target sets were split into training and testing datasets. 
+<img width="480" alt="Screenshot 2023-11-22 233253" src="https://github.com/ahcano/venture_funding_with_deep_learning/assets/141194281/d66fa2e1-b580-42df-8fa1-e62dc6a09358">
+
+## Using scikit-learn's StandardScaler , the features data was scaled to fit into the binary classification model 
+<img width="333" alt="Screenshot 2023-11-22 233302" src="https://github.com/ahcano/venture_funding_with_deep_learning/assets/141194281/3488a65a-9c90-484e-ada2-154ec5c31041">
+
 ## Usage
 The code was developed using Google Colab 
 
